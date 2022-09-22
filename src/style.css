@@ -1,0 +1,464 @@
+body {
+    background: black;
+}
+
+.left.menu {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    background: linear-gradient(91.26deg, #72F6D1 0%, #07E57D 21.87%, #A0ED8D 55.73%, #FED365 81.77%, #FAA49E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.ui.secondary.menu .item {
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #FFFFFF
+}
+
+.bell.outline.icon {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.user.circle.outline.icon {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.ui.vertical.pointing.menu {
+    position: absolute;
+    width: 208px;
+    height: 531px;
+    left: 0px;
+    top: 179px;
+    background: #20222B;
+}
+
+.ui.vertical.menu .item {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 18px;
+    color: #ABAFC4;
+}
+
+.ui.center.aligned.container {
+    position: absolute;
+    left: 200px;
+    top: 50px;
+}
+
+.card {
+    position: absolute;
+    width: 357px;
+    height: 209px;
+    top: 75px;
+}
+
+.ui.cards>.card {
+    background: linear-gradient(180deg, #2A2D3C -12.44%, #0D5030 143.66%);
+}
+
+.ui.cards>.card>.content {
+
+    margin-bottom: 40px;
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+}
+
+.ui.table {
+    position: absolute;
+    top: 300px;
+    width: 500px;
+    background-color: black;
+}
+
+.content {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.1603px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.ui.table td {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.ui.table thead th {
+    color: grey;
+}
+
+.active.item {
+    color: yellow;
+}
+
+.ui.card {
+    position: absolute;
+    top: 160px;
+    height: 300px;
+    width: 400px;
+    right: 0px;
+    background-color: black;
+    border: 2px solid grey;
+
+}
+
+.ui.table thead tr:first-child>th:first-child {
+    background-color: black;
+}
+
+.ui.table thead tr:first-child>th:last-child {
+    background-color: black;
+    color: #FEBF32;
+}
+
+.ui.card>:first-child {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.ui.input {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    margin-top: 10px;
+}
+
+.ui.horizontal.list {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    text-align: center;
+}
+
+.ui.segment {
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    align-items: center;
+    padding: 16px;
+    width: 343px;
+    height: 78px;
+    background: rgba(255, 213, 5, 0.25);
+}
+
+.ui.segment h2 {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+.ui.segment p {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    font-size: small;
+    color: #ABAFC4;
+}
+
+/* .ui.button {
+    position: absolute;
+    top: 250px;
+} */
+
+.ui.card>.extra {
+    position: absolute;
+    top: 100px;
+    width: 300px;
+    height: 29px;
+    size: 100px;
+}
+
+.ui.cards>.card>.buttons {
+    width: 295px;
+    height: 55px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FEBF32;
+    background: #2A2D3C;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+.btn {
+    position: absolute;
+    height: 48px;
+    left: 10px;
+    width: 350px;
+    top: 250px;
+    background: #07E67D;
+    box-shadow: 0px 0px 30px rgba(14, 173, 98, 0.3);
+    border-radius: 8px;
+    align-items: center;
+    padding: 12px 16px;
+    border: 2px solid #07E67D;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+
+.ui.text {
+    background: #2A2D3C;
+    border-radius: 5px;
+    color: #FEBF32;
+    border: 2px solid #2A2D3C;
+    margin-left: 10px;
+}
+
+.form {
+    box-sizing: border-box;
+    position: absolute;
+    width: 505px;
+    height: 768px;
+    left: 467px;
+    top: 1000px;
+    background: #2A2D3C;
+    border: 3.56471px solid #2A2D3C;
+    box-shadow: 0px 0px 10.6941px rgba(0, 0, 0, 0.5);
+    border-radius: 11.8824px;
+}
+
+.moneymessage {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #CCCDCC;
+}
+
+.money h1 {
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.money h6 {
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #CCCDCC;
+}
+
+.message {
+    position: absolute;
+    width: 453px;
+    height: 60px;
+    left: 10px;
+    top: 130px;
+    background: rgba(118, 226, 104, 0.25);
+    backdrop-filter: blur(12px);
+    border-radius: 8px;
+}
+
+.message h1 {
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+
+}
+
+.message h2 {
+    position: absolute;
+    top: 7px;
+    left: 2px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #ABAFC4;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Rectangle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 459px;
+    height: 406px;
+    left: 10px;
+    top: 200px;
+    border: 0.5px solid #ABAFC4;
+    border-radius: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FEBF32;
+}
+
+
+.sender {
+    position: absolute;
+    left: 10px;
+}
+
+h5 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+}
+
+.accountDetails {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.accountDetails p {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+.reciever {
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.reciever h5 {
+    color: #FEBF32;
+}
+
+.recieverDetails p {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+.method {
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
